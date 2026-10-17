@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STT Cipasung - Profil</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333333;
+      background-color: #f9f9f9;
+    }
+    .site-header {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .site-header h1 {
+      margin: 0 0 10px 0;
+      font-size: 32px;
+    }
+    .nav-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 15px;
+    }
+    .nav-list a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .nav-list a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .content-section {
+      margin-bottom: 30px;
+    }
+    .content-section h2 {
+      font-size: 24px;
+      color: #003366;
+    }
+    .responsive-img {
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+    }
+    .contact-form .form-group {
+      margin-bottom: 15px;
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .contact-form input {
+      width: 100%;
+      max-width: 400px;
+      padding: 8px;
+    }
+    .contact-form button {
+      background-color: #003366;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    .site-footer {
+      background-color: #eeeeee;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>STT Cipasung</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="content-section">
+      <h2>About Us</h2>
+      <p>STT Cipasung is a technology college in Tasikmalaya.</p>
+      <img src="https://placehold.co/600x300?text=STT+Cipasung" alt="Kampus STT Cipasung" class="responsive-img">
+    </section>
+
+    <section class="content-section">
+      <h2>Contact Us</h2>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="rev-name">Nama:</label>
+          <input type="text" id="rev-name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="rev-email">Email:</label>
+          <input type="email" id="rev-email" placeholder="Email">
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Copyright 2026</p>
+  </footer>
+
+</body>
+</html>
